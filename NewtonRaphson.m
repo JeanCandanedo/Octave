@@ -30,5 +30,6 @@ else
        fprintf ("\n");
        fprintf('La raiz proxima es de: %.8f\n',xn);
        fprintf('Un error de: %.8f\n',error);
-            
+       ezplot(funcion)
+       grid on    
 endif

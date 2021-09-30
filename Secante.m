@@ -31,7 +31,9 @@ while er>ea
    fprintf("\n")
 endwhile;   
      fprintf(" la raiz aproximada es: %.4f \n", xn)
-     fprintf(" el error es de: %.4f \n", er)    
+     fprintf(" el error es de: %.4f \n", er)   
+     ezplot(funcion)
+     grid on 
 else 
 fprintf("no se puede calcular divison entre 0");
 
